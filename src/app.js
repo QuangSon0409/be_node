@@ -12,5 +12,8 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use("/api", cors(corsOptions), pokemonRouter);
+app.listen(8080, () => {
+  console.log(`App listen running at port : 8080`);
+});
 
 export const viteNodeApp = app;
