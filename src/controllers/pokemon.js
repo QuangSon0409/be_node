@@ -1,7 +1,7 @@
 const pokemonModel = [
   {
     id: "1",
-    pokemonName: "Charmander ",
+    pokemonName: "Charmander",
     image: "https://db.pokemongohub.net/images/official/full/004.webp",
     description:
       "Charmander is a Fire type Pokémon in Pokémon GO. It has a max CP of 1108, with the following stats in Pokémon GO: 116 ATK, 93 DEF and 118 STA.Charmander's best moves in Pokémon GO are Ember and Flamethrower (6.05 DPS)",
@@ -9,7 +9,7 @@ const pokemonModel = [
   },
   {
     id: "2",
-    pokemonName: "Squirtle ",
+    pokemonName: "Squirtle",
     image: "https://db.pokemongohub.net/images/official/full/007.webp",
     description:
       "Squirtle is a Watertype Pokémon in Pokémon GO. It has a max CP of 1069, with the following stats in Pokémon GO: 94 ATK, 121 DEF and 127 STA",
@@ -17,7 +17,7 @@ const pokemonModel = [
   },
   {
     id: "3",
-    pokemonName: "Caterpie ",
+    pokemonName: "Caterpie",
     image: "https://db.pokemongohub.net/images/official/full/010.webp",
     description:
       "Caterpie is a Bug type Pokémon in Pokémon GO. It has a max CP of 494, with the following stats in Pokémon GO: 55 ATK, 55 DEF and 128 STA.",
@@ -33,7 +33,7 @@ const pokemonModel = [
   },
   {
     id: "5",
-    pokemonName: "Pidgey ",
+    pokemonName: "Pidgey",
     image: "https://db.pokemongohub.net/images/official/full/016.webp",
     description:
       "Pidgey is a Normal and Flying type Pokémon in Pokémon GO. It has a max CP of 769, with the following stats in Pokémon GO: 85 ATK, 73 DEF and 120 STA.",
@@ -41,23 +41,23 @@ const pokemonModel = [
   },
   {
     id: "6",
-    pokemonName: "Rattata ",
+    pokemonName: "Rattata",
     image: "https://db.pokemongohub.net/images/official/full/019.webp",
     description:
       "Rattata is a Normal type Pokémon in Pokémon GO. It has a max CP of 830, with the following stats in Pokémon GO: 103 ATK, 70 DEF and 102 STA.",
-    level: "Raticate  ",
+    level: "Raticate",
   },
   {
     id: "7",
-    pokemonName: "Spearow ",
+    pokemonName: "Spearow",
     image: "https://db.pokemongohub.net/images/official/full/021.webp",
     description:
       "Spearow is a Normal and Flying type Pokémon in Pokémon GO. It has a max CP of 902, with the following stats in Pokémon GO: 112 ATK, 60 DEF and 120 STA.",
-    level: "Fearow  ",
+    level: "Fearow",
   },
   {
     id: "8",
-    pokemonName: "Ekans  ",
+    pokemonName: "Ekans",
     image: "https://db.pokemongohub.net/images/official/full/023.webp",
     description:
       "Ekans is a Poison type Pokémon in Pokémon GO. It has a max CP of 1048, with the following stats in Pokémon GO: 110 ATK, 97 DEF and 111 STA.",
@@ -65,7 +65,7 @@ const pokemonModel = [
   },
   {
     id: "9",
-    pokemonName: "Pikachu  ",
+    pokemonName: "Pikachu",
     image: "https://db.pokemongohub.net/images/official/full/025.webp",
     description:
       "Pikachu is a Electric type Pokémon in Pokémon GO. It has a max CP of 1060, with the following stats in Pokémon GO: 112 ATK, 96 DEF and 111 STA.",
@@ -73,7 +73,7 @@ const pokemonModel = [
   },
   {
     id: "10",
-    pokemonName: "Sandshrew  ",
+    pokemonName: "Sandshrew",
     image: "https://db.pokemongohub.net/images/official/full/027.webp",
     description:
       "Sandshrew is a Ground type Pokémon in Pokémon GO. It has a max CP of 1426, with the following stats in Pokémon GO: 126 ATK, 120 DEF and 137 STA.",
@@ -81,7 +81,7 @@ const pokemonModel = [
   },
   {
     id: "11",
-    pokemonName: "Nidoran ",
+    pokemonName: "Nidoran",
     image: "https://db.pokemongohub.net/images/official/full/029.webp",
     description:
       "Nidoran♀ is a Poison type Pokémon in Pokémon GO. It has a max CP of 922, with the following stats in Pokémon GO: 86 ATK, 89 DEF and 146 STA.",
@@ -89,7 +89,7 @@ const pokemonModel = [
   },
   {
     id: "12",
-    pokemonName: "Clefairy ",
+    pokemonName: "Clefairy",
     image: "https://db.pokemongohub.net/images/official/full/035.webp",
     description:
       "Clefairy is a Fairy type Pokémon in Pokémon GO. It has a max CP of 1306, with the following stats in Pokémon GO: 107 ATK, 108 DEF and 172 STA.",
@@ -97,7 +97,7 @@ const pokemonModel = [
   },
   {
     id: "13",
-    pokemonName: "Vulpix ",
+    pokemonName: "Vulpix",
     image: "https://db.pokemongohub.net/images/official/full/037.webp",
     description:
       "Vulpix is a Fire type Pokémon in Pokémon GO. It has a max CP of 998, with the following stats in Pokémon GO: 96 ATK, 109 DEF and 116 STA.",
@@ -105,7 +105,7 @@ const pokemonModel = [
   },
   {
     id: "14",
-    pokemonName: "Jigglypuff ",
+    pokemonName: "Jigglypuff",
     image: "https://db.pokemongohub.net/images/official/full/039.webp",
     description:
       "Jigglypuff is a Normal and Fairy type Pokémon in Pokémon GO. It has a max CP of 818, with the following stats in Pokémon GO: 80 ATK, 41 DEF and 251 STA.",
@@ -113,7 +113,7 @@ const pokemonModel = [
   },
   {
     id: "15",
-    pokemonName: "Zubat  ",
+    pokemonName: "Zubat",
     image: "https://db.pokemongohub.net/images/official/full/041.webp",
     description:
       "Zubat is a Poison and Flying type Pokémon in Pokémon GO. It has a max CP of 754, with the following stats in Pokémon GO: 83 ATK, 73 DEF and 120 STA.",
@@ -121,7 +121,7 @@ const pokemonModel = [
   },
   {
     id: "16",
-    pokemonName: "Oddish  ",
+    pokemonName: "Oddish",
     image: "https://db.pokemongohub.net/images/official/full/043.webp",
     description:
       "Oddish is a Grass and Poison type Pokémon in Pokémon GO. It has a max CP of 1389, with the following stats in Pokémon GO: 131 ATK, 112 DEF and 128 STA.",
@@ -129,15 +129,15 @@ const pokemonModel = [
   },
   {
     id: "17",
-    pokemonName: "Paras  ",
+    pokemonName: "Paras",
     image: "https://db.pokemongohub.net/images/official/full/046.webp",
     description:
       "Paras is a Bug and Grass type Pokémon in Pokémon GO. It has a max CP of 1150, with the following stats in Pokémon GO: 121 ATK, 99 DEF and 111 STA.",
-    level: "Parasect   ",
+    level: "Parasect",
   },
   {
     id: "18",
-    pokemonName: "Venonat  ",
+    pokemonName: "Venonat",
     image: "https://db.pokemongohub.net/images/official/full/048.webp",
     description:
       "Venonat is a Bug and Poison type Pokémon in Pokémon GO. It has a max CP of 1135, with the following stats in Pokémon GO: 100 ATK, 100 DEF and 155 STA.",
@@ -145,7 +145,7 @@ const pokemonModel = [
   },
   {
     id: "19",
-    pokemonName: "Diglett  ",
+    pokemonName: "Diglett",
     image: "https://db.pokemongohub.net/images/official/full/050.webp",
     description:
       "Diglett is a Ground type Pokémon in Pokémon GO. It has a max CP of 764, with the following stats in Pokémon GO: 109 ATK, 78 DEF and 67 STA.",
@@ -153,7 +153,7 @@ const pokemonModel = [
   },
   {
     id: "20",
-    pokemonName: "Meowth  ",
+    pokemonName: "Meowth",
     image: "https://db.pokemongohub.net/images/official/full/052.webp",
     description:
       "Meowth is a Normal type Pokémon in Pokémon GO. It has a max CP of 846, with the following stats in Pokémon GO: 92 ATK, 78 DEF and 120 STA.",
@@ -183,7 +183,7 @@ export const getPokemonById = async (req, res) => {
 };
 export const getAll = async (req, res) => {
   try {
-    const { _keyword } = req.query;
+    const { _keyword } = await req.query;
     const searchPokemon = (pokemons) => {
       return pokemons.filter((p) =>
         p.pokemonName.includes(_keyword.toLowerCase())
