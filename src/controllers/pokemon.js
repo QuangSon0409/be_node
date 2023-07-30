@@ -165,7 +165,7 @@ export const getPokemonById = async (req, res) => {
   try {
     const pokemons = pokemonModel.filter((p) => p.id == req.params.id);
 
-    if (pokemons.length === 0) {
+    if (!pokemons) {
       return res.status(404).json({
         message: "Không tìm thấy sản phẩm nào",
       });
