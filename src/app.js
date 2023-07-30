@@ -5,11 +5,11 @@ import cors from "cors";
 const app = express();
 
 app.use(express.json());
-app.use(cors());
 const corsOptions = {
   origin: true,
   credentials: true,
 };
+app.use(cors(corsOptions));
 
 app.use("/api", cors(corsOptions), pokemonRouter);
 
