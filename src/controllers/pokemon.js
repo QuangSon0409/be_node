@@ -10,9 +10,9 @@ const pokemonModel = [
   {
     id: "2",
     pokemonName: "Squirtle ",
-    image:
+    image: "https://db.pokemongohub.net/images/official/full/007.webp",
+    description:
       "Squirtle is a Watertype Pokémon in Pokémon GO. It has a max CP of 1069, with the following stats in Pokémon GO: 94 ATK, 121 DEF and 127 STA",
-    description: "lorem ipsum dolor sit amet, consectetur",
     level: "Wartortle , Blastoise ",
   },
   {
@@ -165,7 +165,7 @@ export const getPokemonById = async (req, res) => {
   try {
     const pokemons = pokemonModel.filter((p) => p.id == req.params.id);
 
-    if (!pokemons) {
+    if (pokemons.length === 0) {
       return res.status(404).json({
         message: "Không tìm thấy sản phẩm nào",
       });
