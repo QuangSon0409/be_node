@@ -184,11 +184,7 @@ export const getPokemonById = async (req, res) => {
 export const getAll = async (req, res) => {
   try {
     const { _keyword } = await req.query;
-    const searchPokemon = (pokemons) => {
-      return pokemons.filter((p) =>
-        p.pokemonName.includes(_keyword.toLowerCase())
-      );
-    };
+
     const sortPokemon = pokemonModel.sort((a, b) => {
       const nameA = a.pokemonName.toLowerCase();
       const nameB = b.pokemonName.toLowerCase();
@@ -200,8 +196,10 @@ export const getAll = async (req, res) => {
       });
     }
     if (_keyword) {
-      const searchData = await searchPokemon(sortPokemon);
-      if (searchData.length === 0) {
+      const searchData = pokemonModel.filter((p) =>
+        p.pokemonName.toLowerCase().includes(_keyword.toLowerCase())
+      );
+      if (searchData.length == 0) {
         return res.status(200).json({
           message: "Sản phẩm bạn tìm không có tồn tại trong danh sách",
         });
